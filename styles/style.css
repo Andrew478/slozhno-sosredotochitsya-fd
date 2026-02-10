@@ -2,4 +2,38 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+
+
+
+
+
+
+
+
+@media (width > 375px) {
+/* Планшет */
+
+}
+
+@media (min-width > 768px) {
+/* ПК */
+
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    --main-text-color: #000;
+    --main-background-color: pink;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    --main-text-color: pink;
+    --main-background-color: #000;
+  }
 }
