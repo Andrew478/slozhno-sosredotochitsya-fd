@@ -4,36 +4,83 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   color: var(--main-text-color);
   background-color: var(--main-background-color);
+  background-image: var(--background-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
+  background-attachment: fixed;
+  padding-inline: 10px;
+  font-family: 'IBM Plex mono', sans-serif;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 
+.header {
+  height: 100vh;
+}
+.header__theme-menu-button {
+  line-height: 18px;
+}
 
+h2 {
+  font-size: 116px;
+  line-height:82.5%;
+  color: var(--title-main-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
 
+.section-hard-to-concentrate {
+  min-height: 949px;
+}
 
+.section-what-lowers-concentration {
+  min-height: 1119px;
+}
 
+.section-how-to-improve-concentration {
+  min-height: 1736px;
+}
 
+.section-gallery {
+  min-height: 1400px;
+}
+
+.footer {
+  min-height: 668px;
+}
+
+.title-decor-style1 {
+  font-style: bold;
+  color: var(--title-decor-style1-color);
+  background-color: var(--title-decor-style1-background-color);
+}
+
+.title-decor-style2 {
+  font-weight: bold;
+  color: var(--title-decor-style2-color);
+  background-color: var(--title-decor-style2-background-color);
+}
+
+.title-decor-style3 {
+  font-weight: normal;
+  color: var(--title-decor-style1-color);
+  background-color: var(--title-decor-style1-background-color);
+}
+
+.section-gallery__picture {
+  width: 100%;
+  /* padding-inline: 10px; */
+  margin-block-start: 10px;
+}
 
 
 
 @media (width > 375px) {
-/* Планшет */
+  /* Планшет */
 
 }
 
 @media (min-width > 768px) {
-/* ПК */
+  /* ПК */
 
-}
-
-@media (prefers-color-scheme: light) {
-  .page {
-    --main-text-color: #000;
-    --main-background-color: pink;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .page {
-    --main-text-color: pink;
-    --main-background-color: #000;
-  }
 }

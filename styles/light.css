@@ -9,4 +9,32 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --main-text-color: #353430;
+  --main-background-color: #FFF1F7;
+  --background-image: url("/images/cover-image-light.png");
+
+  --title-main-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+
+  --title-decor-style1-color: var(--main-text-color);
+  --title-decor-style1-background-color: #FF8DCB;
+  --title-decor-style2-color: var(--main-text-color);
+  --title-decor-style2-background-color: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --main-text-color: #353430;
+    --main-background-color: #FFF1F7;
+    --background-image: url("/images/cover-image-light.png");
+
+    --title-main-color: #FFC2E6;
+    --accent-color: #FF8DCB;
+
+    --title-decor-style1-color: var(--main-text-color);
+    --title-decor-style1-background-color: #FF8DCB;
+    --title-decor-style2-color: var(--main-text-color);
+    --title-decor-style2-background-color: transparent;
+  }
 }
