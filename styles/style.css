@@ -10,7 +10,7 @@
   /* background-size: 100% auto; */
   background-attachment: fixed;
   padding-inline: 10px;
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: 'IBM Plex mono', monospace;
   font-size: 18px;
   line-height: 23.4px;
 }
@@ -18,31 +18,32 @@
 .header {
   height: 100vh;
 }
+
 .header__theme-menu-button {
   line-height: 18px;
 }
 
-h2 {
+.decor-title {
   font-size: 116px;
-  line-height:82.5%;
+  line-height: 82.5%;
   color: var(--title-main-color);
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .section-hard-to-concentrate {
-  min-height: 949px;
+  
 }
 
 .section-what-lowers-concentration {
-  min-height: 1119px;
+  
 }
 
 .section-how-to-improve-concentration {
-  min-height: 1736px;
+  
 }
 
 .section-gallery {
-  min-height: 1400px;
+  
 }
 
 .footer {
@@ -50,37 +51,150 @@ h2 {
 }
 
 .title-decor-style1 {
-  font-style: bold;
+  font-weight: bold;
+  font-size: 18px;
   color: var(--title-decor-style1-color);
   background-color: var(--title-decor-style1-background-color);
+  margin-block-end: 10px;
 }
 
 .title-decor-style2 {
   font-weight: bold;
+  font-size: 18px;
   color: var(--title-decor-style2-color);
   background-color: var(--title-decor-style2-background-color);
+  margin-block-end: 20px;
 }
 
 .title-decor-style3 {
   font-weight: normal;
+  font-size: 18px;
   color: var(--title-decor-style1-color);
   background-color: var(--title-decor-style1-background-color);
+  margin-block-end: 10px;
 }
 
+.section-how-to-improve-concentration__title {
+  margin-block-end: 19px;
+}
+.section-how-to-improve-concentration__list-title {
+  margin-block-end: 20px;
+}
+
+.section-article {
+  margin-block-end: 50px;
+}
+
+.section-gallery {}
+
+.section-article p {
+  margin-block-end: 20px;
+}
 .section-gallery__picture {
   width: 100%;
-  /* padding-inline: 10px; */
-  margin-block-start: 10px;
+  margin-block-end: 10px;
+  display: block;
 }
 
 
 
-@media (width > 375px) {
+@media (width >=768px) {
+
   /* Планшет */
+  .section-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
 
+  .section-hard-to-concentrate__title {
+    grid-column: 1 / 2;
+  }
+  .section-hard-to-concentrate__text-block {
+    grid-column: 2 / 4;
+  }
+  
+  .section-what-lowers-concentration__title {
+    grid-column: 1 / 4;
+  }
+  .section-what-lowers-concentration__text-block {
+    grid-column: 1 / 4;
+  }
+
+  .section-how-to-improve-concentration__title {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+  }
+  .section-how-to-improve-concentration__list-title {
+    grid-column: 2 / 4;
+  }
+  .section-how-to-improve-concentration__text-block {
+    grid-column: 2 / 4;
+  }
+
+  .section-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 20px;
+  }
+
+  .section-gallery__title {
+    grid-column: 1 / 4;
+  }
+  .section-gallery img:nth-child(2) {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+  .section-gallery img:nth-child(3) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    /* object-fit: cover; */
+  }
+  .section-gallery img:nth-child(4) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 6;
+  }
+  .section-gallery img:nth-child(5) {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+  .section-gallery img:nth-child(6) {
+    grid-column: 2 / 4;
+    grid-row: 4 / 6;
+  }
 }
 
-@media (min-width > 768px) {
+@media (width >= 1024px) {
   /* ПК */
+  .section-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
 
+  .section-hard-to-concentrate__title {
+    grid-column: 1 / 2;
+  }
+  .section-hard-to-concentrate__text-block {
+    grid-column: 2 / 4;
+  }
+
+  .section-what-lowers-concentration__title {
+    grid-column: 1 / 4;
+  }
+  .section-what-lowers-concentration__text-block {
+    grid-column: auto;
+  }
+
+  .section-how-to-improve-concentration__title {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+  }
+  .section-how-to-improve-concentration__list-title {
+    grid-column: 2 / 4;
+  }
+  .section-how-to-improve-concentration__text-block {
+    grid-column: 2 / 4;
+  }
 }
