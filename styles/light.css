@@ -20,6 +20,10 @@
   --title-decor-style1-background-color: #FF8DCB;
   --title-decor-style2-color: var(--main-text-color);
   --title-decor-style2-background-color: transparent;
+
+  --border-decor-color: 1px solid var(--main-text-color);
+  --button-nav-color: var(--main-text-color);
+  --button-nav-color-hover: rgb(50 49 45 / 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,5 +40,9 @@
     --title-decor-style1-background-color: #FF8DCB;
     --title-decor-style2-color: var(--main-text-color);
     --title-decor-style2-background-color: transparent;
+
+    --border-decor-color: 1px solid var(--main-text-color);
+    --button-nav-color: var(--main-text-color);
+    --button-nav-color-hover: rgb(50 49 45 / 0.4);
   }
 }
