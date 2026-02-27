@@ -7,14 +7,14 @@
   --main-background-color: ;
   --background-image: ;
 
-  --title-main-color: ;
+  --title-decor-main-color: ;
   --accent-color: ;
-  
-  --title-decor-style1-color: ;
-  --title-decor-style1-background-color: ;
-  
-  --title-decor-style2-color: ;
-  --title-decor-style2-background-color: ;
+
+  --title-decor-fill-color: ;
+  --title-decor-fill-bg: ;
+
+  --title-decor-accent-color: ;
+  --title-decor-clear-bg: ;
 
   --border-decor-color: ;
   --button-nav-color: ;

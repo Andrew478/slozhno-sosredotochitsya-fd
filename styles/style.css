@@ -39,14 +39,6 @@
   grid-template-rows: 1fr auto 1fr;
 }
 
-.title-decor-style1 {
-  font-weight: bold;
-  font-size: 18px;
-  color: var(--title-decor-style1-color);
-  background-color: var(--title-decor-style1-background-color);
-  margin-block-end: 10px;
-}
-
 .decor-camera-right {
   width: 25px;
   height: 25px;
@@ -123,18 +115,18 @@
   border: 1px solid var(--button-nav-color);
 }
 
-.decor-title {
+.title-decor__main {
   font-size: 116px;
   line-height: 82.5%;
-  color: var(--title-main-color);
+  color: var(--title-decor-main-color);
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-.decor-title-header {
+.title-decor__main--header {
   margin-block-start: 68px;
 }
 
-.decor-title-footer {
+.title-decor__main--footer {
   margin-block-start: 0;
   justify-self: center;
 }
@@ -162,27 +154,27 @@
   outline: 1px solid var(--main-text-color);
 }
 
-.title-decor-style1 {
+.title-decor__fill {
   font-weight: bold;
   font-size: 18px;
-  color: var(--title-decor-style1-color);
-  background-color: var(--title-decor-style1-background-color);
+  color: var(--title-decor-fill-color);
+  background-color: var(--title-decor-fill-bg);
   margin-block-end: 10px;
 }
 
-.title-decor-style2 {
+.title-decor__clear {
   font-weight: bold;
   font-size: 18px;
-  color: var(--title-decor-style2-color);
-  background-color: var(--title-decor-style2-background-color);
+  color: var(--title-decor-accent-color);
+  background-color: var(--title-decor-clear-bg);
   margin-block-end: 20px;
 }
 
-.title-decor-style3 {
+.title-decor__fill-regular {
   font-weight: normal;
   font-size: 18px;
-  color: var(--title-decor-style1-color);
-  background-color: var(--title-decor-style1-background-color);
+  color: var(--title-decor-fill-color);
+  background-color: var(--title-decor-fill-bg);
   margin-block-end: 10px;
 }
 
