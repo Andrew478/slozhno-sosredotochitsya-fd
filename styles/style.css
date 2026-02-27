@@ -7,7 +7,6 @@
   background-image: var(--background-image);
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: 100% auto; */
   background-attachment: fixed;
   padding-inline: 10px;
   font-family: 'IBM Plex mono', monospace;
@@ -23,6 +22,24 @@
   line-height: 18px;
 }
 
+.text-link {
+  text-decoration: none;
+  text-shadow: 1px 0 var(--accent-color);
+}
+
+.text-link:hover {
+  border-block-end: 1px solid var(--main-text-color);
+}
+
+.text-link:focus {
+  border: none;
+  outline: none;
+}
+
+.text-link:focus-visible {
+  outline: 1px solid var(--main-text-color);
+}
+
 .decor-title {
   font-size: 116px;
   line-height: 82.5%;
@@ -30,16 +47,9 @@
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-.section-hard-to-concentrate {}
-
-.section-what-lowers-concentration {}
-
-.section-how-to-improve-concentration {}
-
-.section-gallery {}
-
 .footer {
-  min-height: 668px;
+  /* min-height: 668px; */
+  min-height: 100vh;
 }
 
 .title-decor-style1 {
@@ -78,8 +88,6 @@
   margin-block-end: 50px;
 }
 
-.section-gallery {}
-
 .section-article p {
   margin-block-end: 20px;
 }
@@ -89,15 +97,20 @@
   margin-block-end: 10px;
   display: block;
 }
+
 .section-gallery__title {
-    grid-column: 1 / -1;
-    margin-block-end: 10px;
-  }
+  grid-column: 1 / -1;
+  margin-block-end: 10px;
+}
 
 
 @media (width >=768px) {
 
   /* Планшет */
+  .text-link {
+    text-shadow: 2px 1px var(--accent-color);
+  }
+
   .section-article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -182,6 +195,10 @@
 @media (width >=1024px) {
 
   /* ПК */
+  .text-link {
+    text-shadow: 3px 2px var(--accent-color);
+  }
+
   .section-article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
