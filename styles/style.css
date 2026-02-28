@@ -46,6 +46,7 @@
   border-block-start: var(--border-decor-color);
   justify-self: end;
   margin-block-start: 10px;
+  position: relative;
 }
 
 .decor-camera-left {
@@ -62,7 +63,8 @@
   font-size: 18px;
   line-height: 25px;
   color: var(--accent-color);
-  justify-self: end;
+  position: absolute;
+  left: -35px;
 }
 
 .decor-lamp__circle {
@@ -72,6 +74,7 @@
   border-radius: 50%;
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px;
+  margin-block-end: 2px;
 }
 
 .header__theme-menu {
