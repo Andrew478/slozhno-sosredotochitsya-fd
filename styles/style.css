@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-inline: 10px;
-  font-family: 'IBM Plex mono', monospace;
+  font-family: 'IBM Plex mono', Arial, Roboto, monospace;
   font-size: 18px;
   line-height: 23.4px;
 }
@@ -101,6 +101,7 @@
 
 .header__theme-menu-button:hover {
   border: 1px solid var(--button-nav-color-hover);
+  cursor: pointer;
 }
 
 .header__theme-menu-button:focus {
