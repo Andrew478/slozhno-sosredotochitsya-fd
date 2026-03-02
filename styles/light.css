@@ -11,7 +11,10 @@
   */
   --main-text-color: #353430;
   --main-background-color: #FFF1F7;
+
   --background-image: url("/images/cover-image-light.png");
+  --background-image-webp: url("/images/WebP/cover-image-light.webp");
+  --background-image-avif: url("/images/Avif/cover-image-light.avif");
 
   --title-decor-main-color: #FFC2E6;
   --accent-color: #FF8DCB;
@@ -35,7 +38,10 @@
   :root {
     --main-text-color: #353430;
     --main-background-color: #FFF1F7;
+
     --background-image: url("/images/cover-image-light.png");
+    --background-image-webp: url("/images/WebP/cover-image-light.webp");
+    --background-image-avif: url("/images/Avif/cover-image-light.avif");
 
     --title-decor-main-color: #FFC2E6;
     --accent-color: #FF8DCB;

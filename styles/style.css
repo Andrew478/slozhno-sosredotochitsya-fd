@@ -5,6 +5,10 @@
   color: var(--main-text-color);
   background-color: var(--main-background-color);
   background-image: var(--background-image);
+  background-image: image-set(
+    var(--background-image-avif) type("image/avif"),
+    var(--background-image-webp) type("image/webp"),
+    var(--background-image) type("image/jpeg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
