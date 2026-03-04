@@ -344,8 +344,49 @@
 }
 
 @media (width >=1024px) {
-
   /* ПК */
+
+  .header {
+    display: grid;
+    align-content: start;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto) 1fr;
+    margin-block-end: 60px;
+  }
+
+  .decor-camera-right {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .header__theme-menu {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    margin-block-start: 20px;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: row;
+  }
+
+  .title-decor__main--header {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-block-start: 275px;
+  }
+
+  .header-text {
+    margin-block-start: 113px;
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+
+  .decor-camera-left {
+    grid-column: 1;
+    grid-row: -2 / -1;
+  }
+
   .text-link {
     text-shadow: 3px 2px var(--accent-color);
   }
@@ -366,6 +407,7 @@
 
   .section-what-lowers-concentration__title {
     grid-column: 1 / 4;
+    inline-size: 315px;
   }
 
   .section-what-lowers-concentration__text-block {
@@ -377,11 +419,16 @@
     grid-row: 1 / -1;
   }
 
-  .section-how-to-improve-concentration__list-title {
+  .section-how-to-improve-concentration__list-container {
     grid-column: 2 / 4;
   }
 
-  .section-how-to-improve-concentration__text-block {
-    grid-column: 2 / 4;
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .title-decor__main--footer {
+    grid-column: 1 / -1;
+    grid-row: 2;
   }
 }
