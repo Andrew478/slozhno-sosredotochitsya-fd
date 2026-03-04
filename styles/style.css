@@ -29,6 +29,7 @@
 
 .header {
   height: 100vh;
+  min-height: 668px;
   display: grid;
   align-content: start;
   grid-template-rows: repeat(4, auto) 1fr;
@@ -219,6 +220,7 @@
   }
 
   .header {
+    min-height: 1024px;
     grid-template-rows: repeat(4, auto) 1fr;
     margin-block-end: 60px;
   }
@@ -348,6 +350,7 @@
   /* ПК */
 
   .header {
+    min-height: 768px;
     display: grid;
     align-content: start;
     grid-template-columns: repeat(3, 1fr);
