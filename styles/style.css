@@ -63,7 +63,8 @@
   left: -35px;
 }
 
-.decor-lamp__circle {
+.decor-lamp::after {
+  content: '';
   display: inline-block;
   width: 9px;
   height: 9px;
@@ -72,6 +73,18 @@
   box-shadow: 0 0 4px 2px;
   margin-block-end: 2px;
 }
+
+/* .decor-lamp__circle {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  box-shadow: 0 0 4px 2px;
+  margin-block-end: 2px;
+} */
+
+
 
 .header__theme-menu {
   justify-self: end;
