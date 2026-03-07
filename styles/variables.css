@@ -2,24 +2,3 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root {
-  --main-text-color: ;
-  --main-background-color: ;
-
-  --background-image: ;
-  --background-image-webp: ;
-  --background-image-avif: ;
-
-  --title-decor-main-color: ;
-  --accent-color: ;
-
-  --title-decor-fill-color: ;
-  --title-decor-fill-bg: ;
-
-  --title-decor-accent-color: ;
-  --title-decor-clear-bg: ;
-
-  --border-decor-color: ;
-  --button-nav-color: ;
-  --button-nav-color-hover: ;
-}
