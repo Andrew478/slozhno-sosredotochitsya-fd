@@ -12,9 +12,9 @@
   --main-text-color: #F1B2CE;
   --main-background-color: #000028;
 
-  --background-image: url("/images/cover-image-dark.png");
-  --background-image-webp: url("/images/WebP/cover-image-dark.webp");
-  --background-image-avif: url("/images/Avif/cover-image-dark.avif");
+  --background-image: url("../images/cover-image-dark.png");
+  --background-image-webp: url("../images/WebP/cover-image-dark.webp");
+  --background-image-avif: url("../images/Avif/cover-image-dark.avif");
 
   --title-decor-main-color: #DB00FF;
   --accent-color: #FF0070;
@@ -39,9 +39,9 @@
     --main-text-color: #F1B2CE;
     --main-background-color: #000028;
 
-    --background-image: url("/images/cover-image-dark.png");
-    --background-image-webp: url("/images/WebP/cover-image-dark.webp");
-    --background-image-avif: url("/images/Avif/cover-image-dark.avif");
+    --background-image: url("../images/cover-image-dark.png");
+    --background-image-webp: url("../images/WebP/cover-image-dark.webp");
+    --background-image-avif: url("../images/Avif/cover-image-dark.avif");
 
     --title-decor-main-color: #DB00FF;
     --accent-color: #FF0070;
