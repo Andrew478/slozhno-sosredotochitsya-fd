@@ -74,18 +74,6 @@
   margin-block-end: 2px;
 }
 
-/* .decor-lamp__circle {
-  display: inline-block;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background-color: var(--accent-color);
-  box-shadow: 0 0 4px 2px;
-  margin-block-end: 2px;
-} */
-
-
-
 .header__theme-menu {
   justify-self: end;
   margin-block-start: 39px;
@@ -199,11 +187,11 @@
   margin-block-end: 20px;
 }
 
-.section-article {
+.section {
   margin-block-end: 50px;
 }
 
-.section-article p {
+.section p {
   margin-block-end: 20px;
 }
 
@@ -262,14 +250,17 @@
     text-shadow: 2px 1px var(--accent-color);
   }
 
-  .section-article {
-    margin-block-end: 60px;
-  }
-
-  .section-hard-to-concentrate {
+  .section {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
+    margin-block-end: 60px;
+  }
+
+  .section-what-lowers-concentration {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
   }
 
   .section-hard-to-concentrate__title {
@@ -280,20 +271,8 @@
     grid-column: 2;
   }
 
-  .section-what-lowers-concentration {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
-  }
-
   .section-what-lowers-concentration__title {
     inline-size: 236px;
-  }
-
-  .section-how-to-improve-concentration {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
   }
 
   .section-how-to-improve-concentration__title {
@@ -404,7 +383,7 @@
     text-shadow: 3px 2px var(--accent-color);
   }
 
-  .section-article {
+  .section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
