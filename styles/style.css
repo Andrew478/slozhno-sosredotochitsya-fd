@@ -179,11 +179,7 @@
   margin-block-end: 10px;
 }
 
-.section-how-to-improve-concentration__title {
-  margin-block-end: 19px;
-}
-
-.section-how-to-improve-concentration__list-title {
+.section:nth-child(3) .title-decor__fill {
   margin-block-end: 20px;
 }
 
@@ -263,23 +259,23 @@
     grid-auto-rows: auto;
   }
 
-  .section-hard-to-concentrate__title {
+  .section:nth-child(1) h2 {
     grid-column: 1;
   }
 
-  .section-hard-to-concentrate__text-block {
+  .section:nth-child(1) article {
     grid-column: 2;
   }
 
-  .section-what-lowers-concentration__title {
+  .section:nth-child(2) h2 {
     inline-size: 236px;
   }
 
-  .section-how-to-improve-concentration__title {
+  .section:nth-child(3) h2 {
     grid-column: 1;
   }
 
-  .section-how-to-improve-concentration__list-container {
+  .section:nth-child(3) .list-container {
     grid-column: 2;
   }
 
@@ -389,29 +385,20 @@
     column-gap: 20px;
   }
 
-  .section-hard-to-concentrate__title {
-    grid-column: 1 / 2;
-  }
-
-  .section-hard-to-concentrate__text-block {
+  .section:nth-child(1) article {
     grid-column: 2 / 4;
   }
 
-  .section-what-lowers-concentration__title {
+  .section:nth-child(2) h2 {
     grid-column: 1 / 4;
     inline-size: 315px;
   }
 
-  .section-what-lowers-concentration__text-block {
+  .section:nth-child(2) article {
     grid-column: auto;
   }
 
-  .section-how-to-improve-concentration__title {
-    grid-column: 1 / 2;
-    grid-row: 1 / -1;
-  }
-
-  .section-how-to-improve-concentration__list-container {
+  .section:nth-child(3) .list-container {
     grid-column: 2 / 4;
   }
 
