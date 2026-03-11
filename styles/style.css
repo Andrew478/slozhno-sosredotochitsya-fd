@@ -277,7 +277,7 @@
     grid-column: 2;
   }
 
-  .section:nth-child(2) h2 {
+  .section-what-lowers-concentration h2 {
     inline-size: 236px;
   }
 
@@ -391,12 +391,12 @@
     grid-column: 2 / 4;
   }
 
-  .section:nth-child(2) h2 {
+  .section-what-lowers-concentration h2 {
     grid-column: 1 / 4;
     inline-size: 315px;
   }
 
-  .section:nth-child(2) article {
+  .section-what-lowers-concentration article {
     grid-column: auto;
   }
 
